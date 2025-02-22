@@ -62,16 +62,4 @@ pipeline {
             }
         }
     }
-
-    // post {
-    //     success {
-    //         echo 'Build, Docker image push, and application run completed successfully!'
-    //     }
-    //     failure {
-    //         echo 'Build, Docker image push, or application run failed.'
-    //     }
-    //     always {
-    //         sh 'docker system prune -af'
-    //     }
-    // }
 }
